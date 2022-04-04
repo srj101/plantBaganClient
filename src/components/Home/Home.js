@@ -7,7 +7,7 @@ import NewsSection from '../NewsSection/NewsSection'
 import CourseCarousel from '../CourseCarousel/CourseCarousel';
 import Banner from '../BannerSection/Banner';
 import MiniShop from '../MiniShop/MiniShop';
-import Footer from '../Footer/Footer';
+
 const Home = () => {
     return (
         <div className='hompage_area'>
@@ -22,7 +22,7 @@ const Home = () => {
             <Banner/>
             <SectionTitle  title="আধুনিক কৃষি বিজ্ঞান ও প্রযুক্তি সামগ্রী"/>
             <MiniShop/>
-            <Footer/>
+            
         </div>
     );
 };

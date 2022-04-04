@@ -3,6 +3,7 @@ import { gql,useQuery } from '@apollo/client'
 import { useParams } from 'react-router-dom';
 import { Container,Row,Col} from 'react-bootstrap';
 import { Spin } from 'antd';
+import { Link } from 'react-router-dom';
 import './videos.style.css'
 const GET_VIDEO = gql`
 query($getVideoId: String!) {
@@ -58,7 +59,7 @@ function SingleVideo() {
                     </div>
                 </Col>
            </Row>
-           <Row>
+           <Row className='relatedVideos'>
                 <Col>
                     { allVideos?.data?.getVideos.map(video=> (
                         <div className="single_video_item">
@@ -66,9 +67,8 @@ function SingleVideo() {
                                 <img src={video.thumbnail} alt="" />
                             </div>
                             <div className="video_content">
-                                <h3>{video.title}</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis id voluptatem est eos possimus vero.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, accusantium!</p>
+                                <h3><Link to={`/videos/${video.id}`}>{video.title}</Link></h3>
+                                <p>মরিচ একটি গুরুত্বপূর্ণ অর্থকরী ফসল। আমাদের দেশে মূলত মরিচ মসলা ফসল হিসেবে পরিচিত। কাঁচা ও পাকা উভয় অবস্থাতেই এর প্রচুর চাহিদা রয়েছে। পুষ্টিমানে কাঁচা মরিচ ভিটামিন এ ও সি সমৃদ্ধ। দৈনন্দিন রান্নায় রঙ, রুচি ও স্বাদে ভিন্নতা আনার জন্য মরিচ একটি অপরিহার্য উপাদান।</p>
                             </div>
                         </div>
                     )) }

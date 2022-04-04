@@ -12,7 +12,7 @@ import Header from './components/Header/Header';
 import NotFound from './components/NotFound/NotFound';
 import Videos from './components/pages/videos/videos.component';
 import SingleVideo from './components/pages/videos/singleVideo';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
         <Route path='/*' element={<NotFound></NotFound>} ></Route>
 
       </Routes>
+      <Footer/>
     </div>
   );
 }

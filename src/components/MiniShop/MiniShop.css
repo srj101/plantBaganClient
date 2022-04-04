@@ -1,20 +1,17 @@
 .plantMiniShopArea img {height: 130px;width: 100%;}
 
 .plantMiniShopArea span.single-plant {display: block;position: relative;}
-.plantMiniShopArea span.single-plant:hover .shop-hover-content{
-    bottom: 0;
-    opacity: 1;
-}
+
 .shop-hover-content {
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
+    opacity: 1;
     left: 0;
     display: block;
     margin: 0 auto;
     background: rgba(43, 175, 72, 0.71);
     width: 100%;
     padding: 7px 5px;
-    opacity: 0;
     transition: .3s ease-out;
 }
 .shop-hover-content p {margin-bottom: 5px;color: #fff;}

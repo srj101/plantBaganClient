@@ -3,8 +3,6 @@ import { Carousel } from '@trendyol-js/react-carousel';
 import { Container} from 'react-bootstrap';
 import { gql,useQuery } from '@apollo/client'
 import { Link } from 'react-router-dom';
-import LeftArrow from '../VideoCarousel/LeftArrow';
-import RightArrow from '../VideoCarousel/RightArrow';
 import "./NewsSection.css"
 import { Spin } from 'antd';
 
@@ -31,7 +29,7 @@ function VideoCarousel() {
                     {
                       data?.getNews?.map(news => (
                         <Link key={news.id} to={`/news/${news.id}`}><span><img src={news.featuredImage}/><div className="hover-contents">
-                        <span>{news.title}</span>
+                        <span>{news.title.split(' ').slice(0, 3).join(' ')}...</span>
                         <span className="postedBy">Posted By : {news.postedBy}</span>
                       </div></span></Link>
                       ))

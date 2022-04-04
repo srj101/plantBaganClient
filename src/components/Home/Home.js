@@ -13,14 +13,14 @@ const Home = () => {
         <div className='hompage_area'>
            <BoCarousel/>
 
-            <SectionTitle  title="VIDEOS FOR PLANT BAGAN"/>
+            <SectionTitle  title="এক নজরে কিছু সফলতার গল্প"/>
             <VideoCarousel/>
-            <SectionTitle  title="NEWS FOR PLANT ROOM"/>
+            <SectionTitle  title="এক নজরে কৃষি বিষয়ক তথ্য"/>
             <NewsSection/>
-            <SectionTitle  title="COURSES FOR PLANT ROOM"/>
+            <SectionTitle  title="আধুনিক কৃষি বিষয়ে শিক্ষা"/>
             <CourseCarousel/>
             <Banner/>
-            <SectionTitle  title="SHOP FOR PLANT ROOM"/>
+            <SectionTitle  title="আধুনিক কৃষি বিজ্ঞান ও প্রযুক্তি সামগ্রী"/>
             <MiniShop/>
             <Footer/>
         </div>

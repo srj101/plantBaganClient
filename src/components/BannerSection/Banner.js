@@ -27,7 +27,7 @@ function Banner() {
                         </div>
                         <div className="banner_content">
                             <h3>Eid Offer <br />
-                            Buy one get one free <br />
+                            Buy one get one free
                             50% off</h3>
                             <Link className='buyNow' to="plant/id">Buy Now</Link>
                         </div>

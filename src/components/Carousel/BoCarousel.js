@@ -29,9 +29,9 @@ export function BoCarousel() {
               <Row>
                 <Col lg={5}>
                   <div className="slider-content">
-                    <h3>30 Things You Should Know About Tree Planting</h3>
-                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet. sit amet. Lorem ipsum, Lorem ipsum dolor sit r sit amet. dolor sit amet consectetur adipisicing elit. Quos, officia!</p>
-                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quidem voluptatem dicta, possimus quia itaque!  elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, sint! Quas dolores laboriosam ducimus itaque porro expedita! dolor sit amet, consectetur adipisicing elit. Ut, praesentium?</p>
+                    <h3>বর্ষার শুরুতেই গড়ে তুলুন শখের বাগান</h3>
+                    <p>প্রকৃতিতে এখন বর্ষাকাল। গাছ লাগানোর উপযুক্ত সময়। বলা হয়ে থাকে—জুন, জুলাই ও আগস্টে রোপণ করা শতভাগ গাছ বাঁচানো সম্ভব।</p>
+                    <p>ফলে যারা বাড়ির আঙিনা বা ছাদে শখের বসে ছোট্ট বাগান গড়ে ‍তুলতে চান, তাদের এখনই কাজে লেগে পড়া উচিত।</p>
                   </div>
                 </Col>
                 <Col lg={7}>
@@ -47,9 +47,9 @@ export function BoCarousel() {
               <Row>
                 <Col lg={5}>
                   <div className="slider-content">
-                    <h3>Right Tree, Right Place: Using Science to Guide Reforestation</h3>
-                    <p>Lorem ipsum dolor Lorem ipsum doipsum dolor sit amet. dolor sit amet consectetur adipisicing elit. Quos, officia!</p>
-                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quidem voluptatem dicta, possimus quia itaque!  elit. Quas dr adipisicing elit. Ut, praesentium?</p>
+                    <h3>বাড়িতে গাছপালা থাকলে চারপাশের বায়ু পরিষ্কারে সহায়তা করে</h3>
+                    <p>আমরা জানি, গাছ বাতাসে কার্বন ডাই অক্সাইড হ্রাস করে এবং এটি অক্সিজেন ত্যাগ করে। তারই সাথে গাছপালা ধূলিকণা সংগ্রহ করে এবং বায়ুমণ্ডলে ক্ষতিকারক পদার্থগুলিও ভেঙে দেয়।</p>
+                    <p>স্বাস্থ্যকর আর্দ্রতা বাড়ির বাতাসের গুণমানকেও উন্নত করে। এপিপ্রিমেনাম এবং স্পাথিফিলিয়ামের মতো ধরণের গাছপালা বায়ু-বিশোধক উদ্ভিদ।</p>
                   </div>
                 </Col>
                 <Col lg={7}>

@@ -14,9 +14,9 @@ function Footer() {
                             <div className="team_members footer-widget">
                                 <h2>Our Team Members</h2>
                                 <div className="teammates_images">
-                                    <img src="" alt="" />
-                                    <img src="" alt="" />
-                                    <img src="" alt="" />
+                                    <img src="https://gravatar.com/avatar/52895825092ea78cc046d75cce45ebb1?s=200&d=mp&r=x" alt="" />
+                                    <img src="https://gravatar.com/avatar/52895825092ea78cc046d75cce45ebb1?s=200&d=mp&r=x" alt="" />
+                                    <img src="https://gravatar.com/avatar/52895825092ea78cc046d75cce45ebb1?s=200&d=mp&r=x" alt="" />
                                 </div>
                             </div>
                         </Col>
@@ -77,14 +77,16 @@ function Footer() {
                 <Col lg={5}>
                     <Row>
                         <Col>
+                           <div className="footer-download-app">
                             <Link to={"/"}  className='app_download'>Download App</Link>
-                            <span>Hotline: 574+9489</span>
-                            <span>Email : email@gmail.com</span>
+                                <span>Hotline: 574+9489</span>
+                                <span>Email : email@gmail.com</span>
+                           </div>
                         </Col>
                         <Col>
                             <div className="footer_contact">
-                                <input type="text" />
-                                <input type="button" />
+                                <input type="email" placeholder='Type your email' />
+                                <input type="submit" value={`submit`} />
                             </div>
                         </Col>
                     </Row>
